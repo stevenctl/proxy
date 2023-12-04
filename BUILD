@@ -46,6 +46,7 @@ envoy_cc_binary(
         "//source/extensions/filters/listener/set_internal_dst_address:filter_lib",  # Experimental: ambient
         "//source/extensions/filters/network/forward_downstream_sni:config_lib",
         "//source/extensions/filters/network/istio_authn:config_lib",
+        "//source/extensions/filters/network/istio_tlv_authn:config_lib", # Very experimental: ambient/solo/sandwich
         "//source/extensions/filters/network/metadata_exchange:config_lib",
         "//source/extensions/filters/network/sni_verifier:config_lib",
         "//source/extensions/filters/network/tcp_cluster_rewrite:config_lib",
